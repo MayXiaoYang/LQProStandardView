@@ -1,6 +1,8 @@
 # LQProStandardView
 一个关于商品规格选择的View<br>
 用法很简单，只要让后台返回项目中给你的json格式或者自己修改成项目中的json格式，解析josn封装成数组直接传入初始化方法即可;<br>
+demo效果图<br>
+![demo效果图](https://upload-images.jianshu.io/upload_images/3320726-f33fdc6399fb0711.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/305/format/webp)<br>
 使用示例<br>
 ```
 -(LQSkuView *)skuView{
