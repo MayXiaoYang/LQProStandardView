@@ -11,18 +11,8 @@
 //适配屏幕宽高比
 #define WidthRatio SCREEN_WIDTH/375.00
 #import "LQStandardModel.h"
-#import "MJExtension.h"
 
 @implementation LQStandardModel
-//+(NSDictionary *)mj_objectClassInArray{
-//    return @{
-//             @"proArrs":@"LQStandardSonModel"
-//             };
-//}
-//+(NSDictionary *)mj_replacedKeyFromPropertyName{
-//    return @{@"proArrs":@"jsonArray",@"proStandardTitle":@"propesName",@"proStandardTitleId":@"propesId"};
-//}
-
 
 +(LQStandardModel *)modelWithDictionary:(NSDictionary *)dict{
     LQStandardModel *model = [[LQStandardModel alloc]init];
@@ -49,10 +39,6 @@
 
 @end
 @implementation LQStandardSonModel
-
-//+(NSDictionary *)mj_replacedKeyFromPropertyName{
-//    return @{@"proStandardName":@"provalue",@"proStandardNameId":@"provalueId"};
-//}
 
 +(LQStandardSonModel *)modelWithDictionary:(NSDictionary *)dict{
     LQStandardSonModel *model = [[LQStandardSonModel alloc]init];

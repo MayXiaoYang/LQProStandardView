@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB19B917229793D3001FEC4A /* LQProAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19B916229793D3001FEC4A /* LQProAddressViewController.m */; };
-		DB19B91A22979BDB001FEC4A /* LQProAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19B91922979BDA001FEC4A /* LQProAddressView.m */; };
 		DB99862D2294E57000A19DBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99862C2294E57000A19DBE /* AppDelegate.m */; };
 		DB9986302294E57000A19DBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99862F2294E57000A19DBE /* ViewController.m */; };
 		DB9986332294E57000A19DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9986312294E57000A19DBE /* Main.storyboard */; };
@@ -28,18 +26,6 @@
 		DB9986792294E70700A19DBE /* UIView+LQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9986772294E70600A19DBE /* UIView+LQFrame.m */; };
 		DB99867C2294E75B00A19DBE /* UIButton+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99867B2294E75A00A19DBE /* UIButton+Location.m */; };
 		DB99867F2294E90500A19DBE /* LQProSkuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99867E2294E90500A19DBE /* LQProSkuViewController.m */; };
-		DBBC9DC022A122F0007BC840 /* LQProAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBBC9DBF22A122F0007BC840 /* LQProAddressViewController.xib */; };
-		DBBC9DD822A12AFB007BC840 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DC522A12AFB007BC840 /* MJPropertyType.m */; };
-		DBBC9DD922A12AFB007BC840 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DC822A12AFB007BC840 /* NSObject+MJKeyValue.m */; };
-		DBBC9DDA22A12AFB007BC840 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DC922A12AFB007BC840 /* MJProperty.m */; };
-		DBBC9DDB22A12AFB007BC840 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DCB22A12AFB007BC840 /* NSObject+MJCoding.m */; };
-		DBBC9DDC22A12AFB007BC840 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DCD22A12AFB007BC840 /* MJExtensionConst.m */; };
-		DBBC9DDD22A12AFB007BC840 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DCE22A12AFB007BC840 /* NSObject+MJProperty.m */; };
-		DBBC9DDE22A12AFB007BC840 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DD022A12AFB007BC840 /* NSObject+MJClass.m */; };
-		DBBC9DDF22A12AFB007BC840 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DD122A12AFB007BC840 /* NSString+MJExtension.m */; };
-		DBBC9DE022A12AFB007BC840 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DD222A12AFB007BC840 /* MJPropertyKey.m */; };
-		DBBC9DE122A12AFB007BC840 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBBC9DD622A12AFB007BC840 /* Info.plist */; };
-		DBBC9DE222A12AFB007BC840 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DD722A12AFB007BC840 /* MJFoundation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,10 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB19B915229793D3001FEC4A /* LQProAddressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQProAddressViewController.h; sourceTree = "<group>"; };
-		DB19B916229793D3001FEC4A /* LQProAddressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProAddressViewController.m; sourceTree = "<group>"; };
-		DB19B91822979BDA001FEC4A /* LQProAddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQProAddressView.h; sourceTree = "<group>"; };
-		DB19B91922979BDA001FEC4A /* LQProAddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProAddressView.m; sourceTree = "<group>"; };
 		DB9986282294E57000A19DBE /* LQProStandardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQProStandardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB99862B2294E57000A19DBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB99862C2294E57000A19DBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,29 +82,6 @@
 		DB99867B2294E75A00A19DBE /* UIButton+Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Location.m"; sourceTree = "<group>"; };
 		DB99867D2294E90500A19DBE /* LQProSkuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQProSkuViewController.h; sourceTree = "<group>"; };
 		DB99867E2294E90500A19DBE /* LQProSkuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProSkuViewController.m; sourceTree = "<group>"; };
-		DBBC9DBF22A122F0007BC840 /* LQProAddressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQProAddressViewController.xib; sourceTree = "<group>"; };
-		DBBC9DC222A12AFB007BC840 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
-		DBBC9DC322A12AFB007BC840 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
-		DBBC9DC422A12AFB007BC840 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
-		DBBC9DC522A12AFB007BC840 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
-		DBBC9DC622A12AFB007BC840 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		DBBC9DC722A12AFB007BC840 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
-		DBBC9DC822A12AFB007BC840 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		DBBC9DC922A12AFB007BC840 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
-		DBBC9DCA22A12AFB007BC840 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
-		DBBC9DCB22A12AFB007BC840 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
-		DBBC9DCC22A12AFB007BC840 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
-		DBBC9DCD22A12AFB007BC840 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
-		DBBC9DCE22A12AFB007BC840 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
-		DBBC9DCF22A12AFB007BC840 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
-		DBBC9DD022A12AFB007BC840 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
-		DBBC9DD122A12AFB007BC840 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		DBBC9DD222A12AFB007BC840 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
-		DBBC9DD322A12AFB007BC840 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
-		DBBC9DD422A12AFB007BC840 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		DBBC9DD522A12AFB007BC840 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
-		DBBC9DD622A12AFB007BC840 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBBC9DD722A12AFB007BC840 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,18 +109,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB19B91422979398001FEC4A /* ProAddressView */ = {
-			isa = PBXGroup;
-			children = (
-				DB19B915229793D3001FEC4A /* LQProAddressViewController.h */,
-				DB19B916229793D3001FEC4A /* LQProAddressViewController.m */,
-				DBBC9DBF22A122F0007BC840 /* LQProAddressViewController.xib */,
-				DB19B91822979BDA001FEC4A /* LQProAddressView.h */,
-				DB19B91922979BDA001FEC4A /* LQProAddressView.m */,
-			);
-			path = ProAddressView;
-			sourceTree = "<group>";
-		};
 		DB99861F2294E57000A19DBE = {
 			isa = PBXGroup;
 			children = (
@@ -190,8 +137,6 @@
 				DB99862E2294E57000A19DBE /* ViewController.h */,
 				DB99862F2294E57000A19DBE /* ViewController.m */,
 				DB9986722294E5AD00A19DBE /* head.jpg */,
-				DBBC9DC122A12AFB007BC840 /* MJExtension */,
-				DB19B91422979398001FEC4A /* ProAddressView */,
 				DB9986802294EB7F00A19DBE /* Category */,
 				DB99865D2294E5A600A19DBE /* SkuView */,
 				DB9986312294E57000A19DBE /* Main.storyboard */,
@@ -252,35 +197,6 @@
 				DB9986772294E70600A19DBE /* UIView+LQFrame.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		DBBC9DC122A12AFB007BC840 /* MJExtension */ = {
-			isa = PBXGroup;
-			children = (
-				DBBC9DC222A12AFB007BC840 /* MJPropertyKey.h */,
-				DBBC9DC322A12AFB007BC840 /* NSObject+MJClass.h */,
-				DBBC9DC422A12AFB007BC840 /* NSString+MJExtension.h */,
-				DBBC9DC522A12AFB007BC840 /* MJPropertyType.m */,
-				DBBC9DC622A12AFB007BC840 /* NSObject+MJProperty.h */,
-				DBBC9DC722A12AFB007BC840 /* MJExtensionConst.h */,
-				DBBC9DC822A12AFB007BC840 /* NSObject+MJKeyValue.m */,
-				DBBC9DC922A12AFB007BC840 /* MJProperty.m */,
-				DBBC9DCA22A12AFB007BC840 /* MJFoundation.h */,
-				DBBC9DCB22A12AFB007BC840 /* NSObject+MJCoding.m */,
-				DBBC9DCC22A12AFB007BC840 /* MJExtension.h */,
-				DBBC9DCD22A12AFB007BC840 /* MJExtensionConst.m */,
-				DBBC9DCE22A12AFB007BC840 /* NSObject+MJProperty.m */,
-				DBBC9DCF22A12AFB007BC840 /* MJPropertyType.h */,
-				DBBC9DD022A12AFB007BC840 /* NSObject+MJClass.m */,
-				DBBC9DD122A12AFB007BC840 /* NSString+MJExtension.m */,
-				DBBC9DD222A12AFB007BC840 /* MJPropertyKey.m */,
-				DBBC9DD322A12AFB007BC840 /* MJProperty.h */,
-				DBBC9DD422A12AFB007BC840 /* NSObject+MJKeyValue.h */,
-				DBBC9DD522A12AFB007BC840 /* NSObject+MJCoding.h */,
-				DBBC9DD622A12AFB007BC840 /* Info.plist */,
-				DBBC9DD722A12AFB007BC840 /* MJFoundation.m */,
-			);
-			path = MJExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,11 +304,9 @@
 			files = (
 				DB99866D2294E5A600A19DBE /* proJson.txt in Resources */,
 				DB9986732294E5AD00A19DBE /* head.jpg in Resources */,
-				DBBC9DC022A122F0007BC840 /* LQProAddressViewController.xib in Resources */,
 				DB9986382294E57300A19DBE /* LaunchScreen.storyboard in Resources */,
 				DB9986352294E57300A19DBE /* Assets.xcassets in Resources */,
 				DB9986332294E57000A19DBE /* Main.storyboard in Resources */,
-				DBBC9DE122A12AFB007BC840 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,29 +331,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBC9DD922A12AFB007BC840 /* NSObject+MJKeyValue.m in Sources */,
-				DBBC9DD822A12AFB007BC840 /* MJPropertyType.m in Sources */,
 				DB99867C2294E75B00A19DBE /* UIButton+Location.m in Sources */,
 				DB9986302294E57000A19DBE /* ViewController.m in Sources */,
 				DB9986702294E5A600A19DBE /* LQSkuView.m in Sources */,
 				DB99866F2294E5A600A19DBE /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				DB9986782294E70700A19DBE /* NSString+LQString.m in Sources */,
-				DBBC9DE022A12AFB007BC840 /* MJPropertyKey.m in Sources */,
-				DBBC9DDD22A12AFB007BC840 /* NSObject+MJProperty.m in Sources */,
-				DBBC9DDA22A12AFB007BC840 /* MJProperty.m in Sources */,
 				DB99866C2294E5A600A19DBE /* LQStandardCollectionReusableView.m in Sources */,
 				DB99863B2294E57300A19DBE /* main.m in Sources */,
-				DBBC9DDC22A12AFB007BC840 /* MJExtensionConst.m in Sources */,
-				DBBC9DDF22A12AFB007BC840 /* NSString+MJExtension.m in Sources */,
-				DBBC9DDE22A12AFB007BC840 /* NSObject+MJClass.m in Sources */,
-				DBBC9DE222A12AFB007BC840 /* MJFoundation.m in Sources */,
 				DB99867F2294E90500A19DBE /* LQProSkuViewController.m in Sources */,
-				DB19B91A22979BDB001FEC4A /* LQProAddressView.m in Sources */,
 				DB9986792294E70700A19DBE /* UIView+LQFrame.m in Sources */,
 				DB9986712294E5A600A19DBE /* LQStandardCollectionViewCell.m in Sources */,
-				DBBC9DDB22A12AFB007BC840 /* NSObject+MJCoding.m in Sources */,
 				DB99862D2294E57000A19DBE /* AppDelegate.m in Sources */,
-				DB19B917229793D3001FEC4A /* LQProAddressViewController.m in Sources */,
 				DB99866B2294E5A600A19DBE /* LQStandardModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
