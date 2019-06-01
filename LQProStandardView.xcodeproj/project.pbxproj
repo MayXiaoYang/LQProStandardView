@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB19B917229793D3001FEC4A /* LQProAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19B916229793D3001FEC4A /* LQProAddressViewController.m */; };
+		DB19B91A22979BDB001FEC4A /* LQProAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19B91922979BDA001FEC4A /* LQProAddressView.m */; };
+		DB99862D2294E57000A19DBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99862C2294E57000A19DBE /* AppDelegate.m */; };
+		DB9986302294E57000A19DBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99862F2294E57000A19DBE /* ViewController.m */; };
+		DB9986332294E57000A19DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9986312294E57000A19DBE /* Main.storyboard */; };
+		DB9986352294E57300A19DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9986342294E57300A19DBE /* Assets.xcassets */; };
+		DB9986382294E57300A19DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9986362294E57300A19DBE /* LaunchScreen.storyboard */; };
+		DB99863B2294E57300A19DBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99863A2294E57300A19DBE /* main.m */; };
+		DB9986452294E57300A19DBE /* LQProStandardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9986442294E57300A19DBE /* LQProStandardViewTests.m */; };
+		DB9986502294E57300A19DBE /* LQProStandardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99864F2294E57300A19DBE /* LQProStandardViewUITests.m */; };
+		DB99866B2294E5A600A19DBE /* LQStandardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9986622294E5A600A19DBE /* LQStandardModel.m */; };
+		DB99866C2294E5A600A19DBE /* LQStandardCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9986632294E5A600A19DBE /* LQStandardCollectionReusableView.m */; };
+		DB99866D2294E5A600A19DBE /* proJson.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB9986642294E5A600A19DBE /* proJson.txt */; };
+		DB99866F2294E5A600A19DBE /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9986662294E5A600A19DBE /* UICollectionViewLeftAlignedLayout.m */; };
+		DB9986702294E5A600A19DBE /* LQSkuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9986672294E5A600A19DBE /* LQSkuView.m */; };
+		DB9986712294E5A600A19DBE /* LQStandardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9986682294E5A600A19DBE /* LQStandardCollectionViewCell.m */; };
+		DB9986732294E5AD00A19DBE /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9986722294E5AD00A19DBE /* head.jpg */; };
+		DB9986782294E70700A19DBE /* NSString+LQString.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9986752294E70600A19DBE /* NSString+LQString.m */; };
+		DB9986792294E70700A19DBE /* UIView+LQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9986772294E70600A19DBE /* UIView+LQFrame.m */; };
+		DB99867C2294E75B00A19DBE /* UIButton+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99867B2294E75A00A19DBE /* UIButton+Location.m */; };
+		DB99867F2294E90500A19DBE /* LQProSkuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99867E2294E90500A19DBE /* LQProSkuViewController.m */; };
+		DBBC9DC022A122F0007BC840 /* LQProAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBBC9DBF22A122F0007BC840 /* LQProAddressViewController.xib */; };
+		DBBC9DD822A12AFB007BC840 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DC522A12AFB007BC840 /* MJPropertyType.m */; };
+		DBBC9DD922A12AFB007BC840 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DC822A12AFB007BC840 /* NSObject+MJKeyValue.m */; };
+		DBBC9DDA22A12AFB007BC840 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DC922A12AFB007BC840 /* MJProperty.m */; };
+		DBBC9DDB22A12AFB007BC840 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DCB22A12AFB007BC840 /* NSObject+MJCoding.m */; };
+		DBBC9DDC22A12AFB007BC840 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DCD22A12AFB007BC840 /* MJExtensionConst.m */; };
+		DBBC9DDD22A12AFB007BC840 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DCE22A12AFB007BC840 /* NSObject+MJProperty.m */; };
+		DBBC9DDE22A12AFB007BC840 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DD022A12AFB007BC840 /* NSObject+MJClass.m */; };
+		DBBC9DDF22A12AFB007BC840 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DD122A12AFB007BC840 /* NSString+MJExtension.m */; };
+		DBBC9DE022A12AFB007BC840 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DD222A12AFB007BC840 /* MJPropertyKey.m */; };
+		DBBC9DE122A12AFB007BC840 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBBC9DD622A12AFB007BC840 /* Info.plist */; };
+		DBBC9DE222A12AFB007BC840 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC9DD722A12AFB007BC840 /* MJFoundation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9986412294E57300A19DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9986202294E57000A19DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9986272294E57000A19DBE;
+			remoteInfo = LQProStandardView;
+		};
+		DB99864C2294E57300A19DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9986202294E57000A19DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9986272294E57000A19DBE;
+			remoteInfo = LQProStandardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB19B915229793D3001FEC4A /* LQProAddressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQProAddressViewController.h; sourceTree = "<group>"; };
+		DB19B916229793D3001FEC4A /* LQProAddressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProAddressViewController.m; sourceTree = "<group>"; };
+		DB19B91822979BDA001FEC4A /* LQProAddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQProAddressView.h; sourceTree = "<group>"; };
+		DB19B91922979BDA001FEC4A /* LQProAddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProAddressView.m; sourceTree = "<group>"; };
+		DB9986282294E57000A19DBE /* LQProStandardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQProStandardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB99862B2294E57000A19DBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB99862C2294E57000A19DBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB99862E2294E57000A19DBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB99862F2294E57000A19DBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB9986322294E57000A19DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB9986342294E57300A19DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB9986372294E57300A19DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB9986392294E57300A19DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB99863A2294E57300A19DBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB9986402294E57300A19DBE /* LQProStandardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQProStandardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9986442294E57300A19DBE /* LQProStandardViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProStandardViewTests.m; sourceTree = "<group>"; };
+		DB9986462294E57300A19DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB99864B2294E57300A19DBE /* LQProStandardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQProStandardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB99864F2294E57300A19DBE /* LQProStandardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProStandardViewUITests.m; sourceTree = "<group>"; };
+		DB9986512294E57300A19DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB99865E2294E5A600A19DBE /* LQSkuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSkuView.h; sourceTree = "<group>"; };
+		DB9986602294E5A600A19DBE /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		DB9986612294E5A600A19DBE /* LQStandardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQStandardCollectionViewCell.h; sourceTree = "<group>"; };
+		DB9986622294E5A600A19DBE /* LQStandardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQStandardModel.m; sourceTree = "<group>"; };
+		DB9986632294E5A600A19DBE /* LQStandardCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQStandardCollectionReusableView.m; sourceTree = "<group>"; };
+		DB9986642294E5A600A19DBE /* proJson.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = proJson.txt; sourceTree = "<group>"; };
+		DB9986662294E5A600A19DBE /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		DB9986672294E5A600A19DBE /* LQSkuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQSkuView.m; sourceTree = "<group>"; };
+		DB9986682294E5A600A19DBE /* LQStandardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQStandardCollectionViewCell.m; sourceTree = "<group>"; };
+		DB9986692294E5A600A19DBE /* LQStandardCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQStandardCollectionReusableView.h; sourceTree = "<group>"; };
+		DB99866A2294E5A600A19DBE /* LQStandardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQStandardModel.h; sourceTree = "<group>"; };
+		DB9986722294E5AD00A19DBE /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpg; sourceTree = "<group>"; };
+		DB9986742294E70600A19DBE /* NSString+LQString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LQString.h"; sourceTree = "<group>"; };
+		DB9986752294E70600A19DBE /* NSString+LQString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LQString.m"; sourceTree = "<group>"; };
+		DB9986762294E70600A19DBE /* UIView+LQFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LQFrame.h"; sourceTree = "<group>"; };
+		DB9986772294E70600A19DBE /* UIView+LQFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LQFrame.m"; sourceTree = "<group>"; };
+		DB99867A2294E75A00A19DBE /* UIButton+Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Location.h"; sourceTree = "<group>"; };
+		DB99867B2294E75A00A19DBE /* UIButton+Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Location.m"; sourceTree = "<group>"; };
+		DB99867D2294E90500A19DBE /* LQProSkuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQProSkuViewController.h; sourceTree = "<group>"; };
+		DB99867E2294E90500A19DBE /* LQProSkuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProSkuViewController.m; sourceTree = "<group>"; };
+		DBBC9DBF22A122F0007BC840 /* LQProAddressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LQProAddressViewController.xib; sourceTree = "<group>"; };
+		DBBC9DC222A12AFB007BC840 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		DBBC9DC322A12AFB007BC840 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		DBBC9DC422A12AFB007BC840 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		DBBC9DC522A12AFB007BC840 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		DBBC9DC622A12AFB007BC840 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		DBBC9DC722A12AFB007BC840 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		DBBC9DC822A12AFB007BC840 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		DBBC9DC922A12AFB007BC840 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		DBBC9DCA22A12AFB007BC840 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		DBBC9DCB22A12AFB007BC840 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		DBBC9DCC22A12AFB007BC840 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		DBBC9DCD22A12AFB007BC840 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		DBBC9DCE22A12AFB007BC840 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		DBBC9DCF22A12AFB007BC840 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		DBBC9DD022A12AFB007BC840 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		DBBC9DD122A12AFB007BC840 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		DBBC9DD222A12AFB007BC840 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		DBBC9DD322A12AFB007BC840 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		DBBC9DD422A12AFB007BC840 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		DBBC9DD522A12AFB007BC840 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		DBBC9DD622A12AFB007BC840 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBC9DD722A12AFB007BC840 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9986252294E57000A19DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB99863D2294E57300A19DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9986482294E57300A19DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB19B91422979398001FEC4A /* ProAddressView */ = {
+			isa = PBXGroup;
+			children = (
+				DB19B915229793D3001FEC4A /* LQProAddressViewController.h */,
+				DB19B916229793D3001FEC4A /* LQProAddressViewController.m */,
+				DBBC9DBF22A122F0007BC840 /* LQProAddressViewController.xib */,
+				DB19B91822979BDA001FEC4A /* LQProAddressView.h */,
+				DB19B91922979BDA001FEC4A /* LQProAddressView.m */,
+			);
+			path = ProAddressView;
+			sourceTree = "<group>";
+		};
+		DB99861F2294E57000A19DBE = {
+			isa = PBXGroup;
+			children = (
+				DB99862A2294E57000A19DBE /* LQProStandardView */,
+				DB9986432294E57300A19DBE /* LQProStandardViewTests */,
+				DB99864E2294E57300A19DBE /* LQProStandardViewUITests */,
+				DB9986292294E57000A19DBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9986292294E57000A19DBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9986282294E57000A19DBE /* LQProStandardView.app */,
+				DB9986402294E57300A19DBE /* LQProStandardViewTests.xctest */,
+				DB99864B2294E57300A19DBE /* LQProStandardViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB99862A2294E57000A19DBE /* LQProStandardView */ = {
+			isa = PBXGroup;
+			children = (
+				DB99862B2294E57000A19DBE /* AppDelegate.h */,
+				DB99862C2294E57000A19DBE /* AppDelegate.m */,
+				DB99862E2294E57000A19DBE /* ViewController.h */,
+				DB99862F2294E57000A19DBE /* ViewController.m */,
+				DB9986722294E5AD00A19DBE /* head.jpg */,
+				DBBC9DC122A12AFB007BC840 /* MJExtension */,
+				DB19B91422979398001FEC4A /* ProAddressView */,
+				DB9986802294EB7F00A19DBE /* Category */,
+				DB99865D2294E5A600A19DBE /* SkuView */,
+				DB9986312294E57000A19DBE /* Main.storyboard */,
+				DB9986342294E57300A19DBE /* Assets.xcassets */,
+				DB9986362294E57300A19DBE /* LaunchScreen.storyboard */,
+				DB9986392294E57300A19DBE /* Info.plist */,
+				DB99863A2294E57300A19DBE /* main.m */,
+			);
+			path = LQProStandardView;
+			sourceTree = "<group>";
+		};
+		DB9986432294E57300A19DBE /* LQProStandardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9986442294E57300A19DBE /* LQProStandardViewTests.m */,
+				DB9986462294E57300A19DBE /* Info.plist */,
+			);
+			path = LQProStandardViewTests;
+			sourceTree = "<group>";
+		};
+		DB99864E2294E57300A19DBE /* LQProStandardViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB99864F2294E57300A19DBE /* LQProStandardViewUITests.m */,
+				DB9986512294E57300A19DBE /* Info.plist */,
+			);
+			path = LQProStandardViewUITests;
+			sourceTree = "<group>";
+		};
+		DB99865D2294E5A600A19DBE /* SkuView */ = {
+			isa = PBXGroup;
+			children = (
+				DB99867D2294E90500A19DBE /* LQProSkuViewController.h */,
+				DB99867E2294E90500A19DBE /* LQProSkuViewController.m */,
+				DB99865E2294E5A600A19DBE /* LQSkuView.h */,
+				DB9986672294E5A600A19DBE /* LQSkuView.m */,
+				DB9986612294E5A600A19DBE /* LQStandardCollectionViewCell.h */,
+				DB9986682294E5A600A19DBE /* LQStandardCollectionViewCell.m */,
+				DB9986692294E5A600A19DBE /* LQStandardCollectionReusableView.h */,
+				DB9986632294E5A600A19DBE /* LQStandardCollectionReusableView.m */,
+				DB9986602294E5A600A19DBE /* UICollectionViewLeftAlignedLayout.h */,
+				DB9986662294E5A600A19DBE /* UICollectionViewLeftAlignedLayout.m */,
+				DB99866A2294E5A600A19DBE /* LQStandardModel.h */,
+				DB9986622294E5A600A19DBE /* LQStandardModel.m */,
+				DB9986642294E5A600A19DBE /* proJson.txt */,
+			);
+			path = SkuView;
+			sourceTree = "<group>";
+		};
+		DB9986802294EB7F00A19DBE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DB99867A2294E75A00A19DBE /* UIButton+Location.h */,
+				DB99867B2294E75A00A19DBE /* UIButton+Location.m */,
+				DB9986742294E70600A19DBE /* NSString+LQString.h */,
+				DB9986752294E70600A19DBE /* NSString+LQString.m */,
+				DB9986762294E70600A19DBE /* UIView+LQFrame.h */,
+				DB9986772294E70600A19DBE /* UIView+LQFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DBBC9DC122A12AFB007BC840 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DBBC9DC222A12AFB007BC840 /* MJPropertyKey.h */,
+				DBBC9DC322A12AFB007BC840 /* NSObject+MJClass.h */,
+				DBBC9DC422A12AFB007BC840 /* NSString+MJExtension.h */,
+				DBBC9DC522A12AFB007BC840 /* MJPropertyType.m */,
+				DBBC9DC622A12AFB007BC840 /* NSObject+MJProperty.h */,
+				DBBC9DC722A12AFB007BC840 /* MJExtensionConst.h */,
+				DBBC9DC822A12AFB007BC840 /* NSObject+MJKeyValue.m */,
+				DBBC9DC922A12AFB007BC840 /* MJProperty.m */,
+				DBBC9DCA22A12AFB007BC840 /* MJFoundation.h */,
+				DBBC9DCB22A12AFB007BC840 /* NSObject+MJCoding.m */,
+				DBBC9DCC22A12AFB007BC840 /* MJExtension.h */,
+				DBBC9DCD22A12AFB007BC840 /* MJExtensionConst.m */,
+				DBBC9DCE22A12AFB007BC840 /* NSObject+MJProperty.m */,
+				DBBC9DCF22A12AFB007BC840 /* MJPropertyType.h */,
+				DBBC9DD022A12AFB007BC840 /* NSObject+MJClass.m */,
+				DBBC9DD122A12AFB007BC840 /* NSString+MJExtension.m */,
+				DBBC9DD222A12AFB007BC840 /* MJPropertyKey.m */,
+				DBBC9DD322A12AFB007BC840 /* MJProperty.h */,
+				DBBC9DD422A12AFB007BC840 /* NSObject+MJKeyValue.h */,
+				DBBC9DD522A12AFB007BC840 /* NSObject+MJCoding.h */,
+				DBBC9DD622A12AFB007BC840 /* Info.plist */,
+				DBBC9DD722A12AFB007BC840 /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9986272294E57000A19DBE /* LQProStandardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9986542294E57300A19DBE /* Build configuration list for PBXNativeTarget "LQProStandardView" */;
+			buildPhases = (
+				DB9986242294E57000A19DBE /* Sources */,
+				DB9986252294E57000A19DBE /* Frameworks */,
+				DB9986262294E57000A19DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQProStandardView;
+			productName = LQProStandardView;
+			productReference = DB9986282294E57000A19DBE /* LQProStandardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB99863F2294E57300A19DBE /* LQProStandardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9986572294E57300A19DBE /* Build configuration list for PBXNativeTarget "LQProStandardViewTests" */;
+			buildPhases = (
+				DB99863C2294E57300A19DBE /* Sources */,
+				DB99863D2294E57300A19DBE /* Frameworks */,
+				DB99863E2294E57300A19DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9986422294E57300A19DBE /* PBXTargetDependency */,
+			);
+			name = LQProStandardViewTests;
+			productName = LQProStandardViewTests;
+			productReference = DB9986402294E57300A19DBE /* LQProStandardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB99864A2294E57300A19DBE /* LQProStandardViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB99865A2294E57300A19DBE /* Build configuration list for PBXNativeTarget "LQProStandardViewUITests" */;
+			buildPhases = (
+				DB9986472294E57300A19DBE /* Sources */,
+				DB9986482294E57300A19DBE /* Frameworks */,
+				DB9986492294E57300A19DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB99864D2294E57300A19DBE /* PBXTargetDependency */,
+			);
+			name = LQProStandardViewUITests;
+			productName = LQProStandardViewUITests;
+			productReference = DB99864B2294E57300A19DBE /* LQProStandardViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9986202294E57000A19DBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "li xiao yang";
+				TargetAttributes = {
+					DB9986272294E57000A19DBE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DB99863F2294E57300A19DBE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DB9986272294E57000A19DBE;
+					};
+					DB99864A2294E57300A19DBE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DB9986272294E57000A19DBE;
+					};
+				};
+			};
+			buildConfigurationList = DB9986232294E57000A19DBE /* Build configuration list for PBXProject "LQProStandardView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB99861F2294E57000A19DBE;
+			productRefGroup = DB9986292294E57000A19DBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9986272294E57000A19DBE /* LQProStandardView */,
+				DB99863F2294E57300A19DBE /* LQProStandardViewTests */,
+				DB99864A2294E57300A19DBE /* LQProStandardViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9986262294E57000A19DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB99866D2294E5A600A19DBE /* proJson.txt in Resources */,
+				DB9986732294E5AD00A19DBE /* head.jpg in Resources */,
+				DBBC9DC022A122F0007BC840 /* LQProAddressViewController.xib in Resources */,
+				DB9986382294E57300A19DBE /* LaunchScreen.storyboard in Resources */,
+				DB9986352294E57300A19DBE /* Assets.xcassets in Resources */,
+				DB9986332294E57000A19DBE /* Main.storyboard in Resources */,
+				DBBC9DE122A12AFB007BC840 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB99863E2294E57300A19DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9986492294E57300A19DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9986242294E57000A19DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBC9DD922A12AFB007BC840 /* NSObject+MJKeyValue.m in Sources */,
+				DBBC9DD822A12AFB007BC840 /* MJPropertyType.m in Sources */,
+				DB99867C2294E75B00A19DBE /* UIButton+Location.m in Sources */,
+				DB9986302294E57000A19DBE /* ViewController.m in Sources */,
+				DB9986702294E5A600A19DBE /* LQSkuView.m in Sources */,
+				DB99866F2294E5A600A19DBE /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				DB9986782294E70700A19DBE /* NSString+LQString.m in Sources */,
+				DBBC9DE022A12AFB007BC840 /* MJPropertyKey.m in Sources */,
+				DBBC9DDD22A12AFB007BC840 /* NSObject+MJProperty.m in Sources */,
+				DBBC9DDA22A12AFB007BC840 /* MJProperty.m in Sources */,
+				DB99866C2294E5A600A19DBE /* LQStandardCollectionReusableView.m in Sources */,
+				DB99863B2294E57300A19DBE /* main.m in Sources */,
+				DBBC9DDC22A12AFB007BC840 /* MJExtensionConst.m in Sources */,
+				DBBC9DDF22A12AFB007BC840 /* NSString+MJExtension.m in Sources */,
+				DBBC9DDE22A12AFB007BC840 /* NSObject+MJClass.m in Sources */,
+				DBBC9DE222A12AFB007BC840 /* MJFoundation.m in Sources */,
+				DB99867F2294E90500A19DBE /* LQProSkuViewController.m in Sources */,
+				DB19B91A22979BDB001FEC4A /* LQProAddressView.m in Sources */,
+				DB9986792294E70700A19DBE /* UIView+LQFrame.m in Sources */,
+				DB9986712294E5A600A19DBE /* LQStandardCollectionViewCell.m in Sources */,
+				DBBC9DDB22A12AFB007BC840 /* NSObject+MJCoding.m in Sources */,
+				DB99862D2294E57000A19DBE /* AppDelegate.m in Sources */,
+				DB19B917229793D3001FEC4A /* LQProAddressViewController.m in Sources */,
+				DB99866B2294E5A600A19DBE /* LQStandardModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB99863C2294E57300A19DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9986452294E57300A19DBE /* LQProStandardViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9986472294E57300A19DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9986502294E57300A19DBE /* LQProStandardViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9986422294E57300A19DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9986272294E57000A19DBE /* LQProStandardView */;
+			targetProxy = DB9986412294E57300A19DBE /* PBXContainerItemProxy */;
+		};
+		DB99864D2294E57300A19DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9986272294E57000A19DBE /* LQProStandardView */;
+			targetProxy = DB99864C2294E57300A19DBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB9986312294E57000A19DBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9986322294E57000A19DBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB9986362294E57300A19DBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9986372294E57300A19DBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB9986522294E57300A19DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB9986532294E57300A19DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB9986552294E57300A19DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProStandardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LQProStandardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9986562294E57300A19DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProStandardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LQProStandardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB9986582294E57300A19DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProStandardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LQProStandardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQProStandardView.app/LQProStandardView";
+			};
+			name = Debug;
+		};
+		DB9986592294E57300A19DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProStandardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LQProStandardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQProStandardView.app/LQProStandardView";
+			};
+			name = Release;
+		};
+		DB99865B2294E57300A19DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProStandardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LQProStandardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQProStandardView;
+			};
+			name = Debug;
+		};
+		DB99865C2294E57300A19DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProStandardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LQProStandardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQProStandardView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9986232294E57000A19DBE /* Build configuration list for PBXProject "LQProStandardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9986522294E57300A19DBE /* Debug */,
+				DB9986532294E57300A19DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9986542294E57300A19DBE /* Build configuration list for PBXNativeTarget "LQProStandardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9986552294E57300A19DBE /* Debug */,
+				DB9986562294E57300A19DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9986572294E57300A19DBE /* Build configuration list for PBXNativeTarget "LQProStandardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9986582294E57300A19DBE /* Debug */,
+				DB9986592294E57300A19DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB99865A2294E57300A19DBE /* Build configuration list for PBXNativeTarget "LQProStandardViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB99865B2294E57300A19DBE /* Debug */,
+				DB99865C2294E57300A19DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9986202294E57000A19DBE /* Project object */;
+}

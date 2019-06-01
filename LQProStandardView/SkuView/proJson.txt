@@ -1,0 +1,107 @@
+{
+  "msg" : "成功",
+  "data" : {
+    "productId" : 236,
+    "productStock" : 0,
+    "productCurrent" : 100,
+    "productListimg" : "\/upload\/head\/productImg\/2019\/05\/13\/e5caad21-751f-4891-b06a-beb065711f22.jpg",
+    "productName" : "Infrared Doorbell ED4",
+    "commentScore" : 0,
+    "productOrginal" : 200,
+    "jsonGroupArray" : [
+      {
+        "jsonArray" : [
+          {
+            "provalue" : "白色",
+            "provalueId" : 194
+          },
+          {
+            "provalue" : "金色",
+            "provalueId" : 195
+          },
+          {
+            "provalue" : "玫瑰金",
+            "provalueId" : 196
+          },
+          {
+            "provalue" : "淡雅蓝",
+            "provalueId" : 197
+          },
+          {
+            "provalue" : "尊贵黑",
+            "provalueId" : 198
+          }
+        ],
+        "propesName" : "颜色",
+        "propesId" : 142
+      },
+      {
+        "jsonArray" : [
+          {
+            "provalue" : "标准套餐",
+            "provalueId" : 215
+          },
+          {
+            "provalue" : "套餐一",
+            "provalueId" : 216
+          },
+          {
+            "provalue" : "套餐二",
+            "provalueId" : 217
+          },
+          {
+            "provalue" : "豪华至尊套餐",
+            "provalueId" : 218
+          }
+        ],
+        "propesName" : "套餐",
+        "propesId" : 164
+      },
+      {
+        "jsonArray" : [
+          {
+            "provalue" : "16G",
+            "provalueId" : 89
+          },
+          {
+            "provalue" : "64G",
+            "provalueId" : 90
+          },
+          {
+            "provalue" : "128G",
+            "provalueId" : 91
+          },
+          {
+            "provalue" : "256G",
+            "provalueId" : 92
+          }
+        ],
+        "propesName" : "内存",
+        "propesId" : 169
+       },
+       {
+         "jsonArray" : [
+          {
+            "provalue" : "美版",
+            "provalueId" : 66
+          },
+          {
+            "provalue" : "韩版",
+            "provalueId" : 67
+          },
+          {
+            "provalue" : "日版",
+            "provalueId" : 68
+          },
+          {
+            "provalue" : "国行大陆",
+            "provalueId" : 69
+          }
+        ],
+            "propesName" : "版本",
+            "propesId" : 69
+        }
+    ],
+  },
+  "code" : "200"
+}
