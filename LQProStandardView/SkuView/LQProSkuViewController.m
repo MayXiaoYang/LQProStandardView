@@ -33,6 +33,8 @@ return _array_dataSource;
 -(LQSkuView *)skuView{
     if (!_skuView) {
         _skuView = [[LQSkuView alloc]initWithFrame:CGRectMake(0, SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT) withDataSource:self.array_dataSource];
+        _skuView.skuSelectedColor = [UIColor orangeColor];//设置选中的sku按钮的颜色
+        _skuView.sureBtnBackgroundColor = [UIColor purpleColor];
         WeakSelf(self);
         _skuView.btnClick = ^{
             [UIView animateWithDuration:0.5 animations:^{

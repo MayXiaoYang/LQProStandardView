@@ -32,6 +32,10 @@ typedef void(^proStandardblock)(NSString *proStandardStr,NSString *proStandardId
 @property (nonatomic, strong)UILabel *lab_price;
 /** 商品数量 */
 @property (nonatomic, strong)UITextField *tf_proNum;
+/** 商品规格选中的颜色 */
+@property (nonatomic, strong)UIColor *skuSelectedColor;
+/** 确定按钮的颜色 */
+@property (nonatomic, strong)UIColor *sureBtnBackgroundColor;
 
 @end
 

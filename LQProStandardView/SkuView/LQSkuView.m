@@ -36,6 +36,7 @@
 @property (nonatomic, strong)NSMutableArray <LQStandardSonModel *>*array_selectedModel;
 @property (nonatomic, strong)UIView *proMsgView;
 @property (nonatomic, strong)UIView *bottomView;
+@property (nonatomic, strong)UIButton *btn_sure;
 
 @end
 
@@ -46,6 +47,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         _array_dataSource = array_dataSource;
+        _skuSelectedColor = [UIColor redColor];
+        _sureBtnBackgroundColor = [UIColor redColor];
         [self configurationUI];
     }
     return self;
@@ -171,10 +174,11 @@
     btn_sure.frame = CGRectMake(15*WidthRatio, CGRectGetMaxY(proNumView.frame)+5*WidthRatio, SCREEN_WIDTH-30*WidthRatio, 40*WidthRatio);
     btn_sure.layer.masksToBounds = YES;
     btn_sure.layer.cornerRadius = 5*WidthRatio;
-    btn_sure.backgroundColor = [UIColor redColor];
+    btn_sure.backgroundColor = _sureBtnBackgroundColor;
     [btn_sure setTitle:@"确定" forState:UIControlStateNormal];
     [btn_sure addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [bottomView addSubview:btn_sure];
+    self.btn_sure = btn_sure;
     
     [self  performSelector:@selector(delayMethod) withObject:nil afterDelay:0.2f];
     self.collectionView.hidden = YES;
@@ -248,7 +252,8 @@
     LQStandardSonModel *model_son = model.proArrs[indexPath.item];
     cell.model = model_son;
     cell.lab_standard.text = model_son.proStandardName;
-    cell.lab_standard.backgroundColor = model_son.isSelected ? [UIColor redColor] : [UIColor lightGrayColor];
+//    cell.lab_standard.backgroundColor = model_son.isSelected ? [UIColor redColor] : [UIColor lightGrayColor];
+    cell.lab_standard.backgroundColor = model_son.isSelected ? _skuSelectedColor : [UIColor lightGrayColor];
     cell.lab_standard.textColor = model_son.isSelected ? [UIColor whiteColor] : [UIColor blackColor];
     return cell;
 }
@@ -330,5 +335,12 @@
     }
     
 }
-
+-(void)setSkuSelectedColor:(UIColor *)skuSelectedColor{
+    _skuSelectedColor = skuSelectedColor;
+    [_collectionView reloadData];
+}
+-(void)setSureBtnBackgroundColor:(UIColor *)sureBtnBackgroundColor{
+    _sureBtnBackgroundColor = sureBtnBackgroundColor;
+    _btn_sure.backgroundColor = sureBtnBackgroundColor;
+}
 @end
